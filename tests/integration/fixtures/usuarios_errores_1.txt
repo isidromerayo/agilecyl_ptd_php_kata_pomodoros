@@ -1,0 +1,5 @@
+juan;pérez peréz; juanperez@ejemplo.com;juan;[contabilidad,dirección]
+maría;garcía garcía;;;[contabilidad]
+sergio;fernández diéz; sergio@ejemplo.com;oigres;[TI,BBDD]
+ana;fernández gonzález;afernandez@ejemplo.com ;ana;
+pedro;arias arias;;;;

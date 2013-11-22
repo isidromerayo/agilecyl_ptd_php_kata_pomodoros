@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./TestHelper.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         strict="true"
+         colors="true"
+         verbose="true">
+  <testsuites>
+    <testsuite name="skeleton_php_project">
+        <directory suffix="Test.php">.</directory>
+    </testsuite>
+  </testsuites>
+  <listeners>
+    <listener class="\Mockery\Adapter\Phpunit\TestListener"></listener>
+    <listener class="SimpleTestListener" file="./SimpleTestListener.php"/>
+  </listeners>
+</phpunit>
