@@ -10,7 +10,6 @@ class CleanArrayDataProviderTest extends \PHPUnit_Framework_TestCase {
             array(array(' nombre'),array('nombre')),
             array(array('nombre '),array('nombre')),
             array(array(' nombre apellido1 apellido2 '),array('nombre apellido1 apellido2'))
-            
         );
     }
     

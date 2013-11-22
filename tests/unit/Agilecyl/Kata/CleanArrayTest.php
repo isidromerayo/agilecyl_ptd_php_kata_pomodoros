@@ -11,19 +11,19 @@ class CleanArrayTest extends \PHPUnit_Framework_TestCase {
     public function stringWithInitialSpaces() {
         $data = array(' nombre');
         $expected = array('nombre');
-        $this->assertEquals($expected, CleanArray::cleanData($data));
+        $this->assertEquals($expected, \Agilecyl\Kata\CleanArray::cleanData($data));
     }
     /** @test */
     public function stringWithFinalSpaces() {
         $data = array('nombre ');
         $expected = array('nombre');
-        $this->assertEquals($expected, CleanArray::cleanData($data));
+        $this->assertEquals($expected, \Agilecyl\Kata\CleanArray::cleanData($data));
     }
     /** @test */
     public function stringWithSpacesOnlyRemoveFinalAndInitialSpaces() {
         $data = array(' nombre apellido1 apellido2 ');
         $expected = array('nombre apellido1 apellido2');
-        $this->assertEquals($expected, CleanArray::cleanData($data));
+        $this->assertEquals($expected, \Agilecyl\Kata\CleanArray::cleanData($data));
     }
     
     
