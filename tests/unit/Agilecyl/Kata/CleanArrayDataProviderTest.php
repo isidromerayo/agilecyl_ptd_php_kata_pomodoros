@@ -2,11 +2,6 @@
 
 namespace Tests\Unit\Agilecyl\Kata;
 
-/**
- * Description of CleanArrayDataProviderTest
- *
- * @author isidromerayo
- */
 class CleanArrayDataProviderTest extends \PHPUnit_Framework_TestCase {
 
     
@@ -23,7 +18,7 @@ class CleanArrayDataProviderTest extends \PHPUnit_Framework_TestCase {
      * @test
      * @dataProvider provider
      */
-    public function cleanSpacesStarFinish($actual, $expected) {
-        
+    public function cleanSpacesStarFinish($data, $expected) {
+        $this->assertEquals($expected, \Agilecyl\Kata\CleanArray::cleanData($data));
     }
 }
