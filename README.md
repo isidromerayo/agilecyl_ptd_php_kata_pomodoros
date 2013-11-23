@@ -65,3 +65,4 @@ El repositorio (primera versión sobre ficheros):
 
 En nuestra web tendremos una página de inicio con email y contraseña para validarnos. 
 Si no nos podemos validar en el sistema, nos aparecerá un mensaje de error. Si estamos dentro veremos información sobre nosotros y un listado de usuarios.
+
